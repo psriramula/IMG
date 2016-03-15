@@ -32,5 +32,21 @@ class ReadUtilsSpec extends UnitSpec{
   }
 
 
+  val binary = "00000000"
+  val expectedInt = 0
+  "castBinaryToInt in ReadUtils" should s"return $expectedInt for a given $binary" in{
+    val res = ReadUtils.castBinaryToInt(binary)
+
+    res should be (expectedInt)
+  }
+
+
+  val binary2 = "00000010"
+  val expectedInt2 = 2
+  "castBinaryToInt in ReadUtils" should s"return $expectedInt2 for a given $binary2" in{
+    val res = ReadUtils.castBinaryToInt(binary2)
+
+    res should be (expectedInt2)
+  }
 
 }

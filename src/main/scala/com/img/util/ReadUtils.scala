@@ -21,6 +21,10 @@ object ReadUtils {
     }
   }
 
+  def castBinaryToInt(s:String) ={
+    Integer.parseInt(s, 2)
+  }
+
   def readFileContent(fileName:String)  = {
     Source.fromFile(getClass.getResource(fileName).getFile).getLines.toList
   }
