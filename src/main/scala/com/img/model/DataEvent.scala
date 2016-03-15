@@ -65,6 +65,13 @@ case class DataEvent (val dataEventPattern:String)
      castBinaryToInt( getPropertyValue(de,pointsScored))
    }
 
+   def getTeam(team:String) :String = team match{
+     case "0" => "Team 1"
+     case "1" => "Team 2"
+     case _ => "error"
+   }
+
+
 
 
 
