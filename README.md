@@ -12,6 +12,7 @@ Sample application to read Game Scores from File
 
 ## How to test 
 execute the following command in command prompt on command prompt.
+
 `sbt test`
 
 ## How to run 
