@@ -8,7 +8,7 @@ Sample application to read Game Scores from File
 * Java 8
 * Scala
 * sbt
-* Intellij IDEA -- Development Environment for view code 
+* Intellij IDEA -- Development Environment 
 
 ## How to test 
 execute the following command in command prompt on command prompt.
