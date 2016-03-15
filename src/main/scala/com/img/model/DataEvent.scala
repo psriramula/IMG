@@ -61,6 +61,10 @@ case class DataEvent (val dataEventPattern:String)
      castBinaryToInt( getPropertyValue(de,matchTime))
    }
 
+   def getPointsScored(de:DataEvent):Int ={
+     castBinaryToInt( getPropertyValue(de,pointsScored))
+   }
+
 
 
 
