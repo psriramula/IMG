@@ -17,7 +17,7 @@ execute the following command in command prompt on command prompt.
 ## How to run 
 execute the following command in command prompt on command prompt. Following application takes command line arguments as data file name(s)( part of resources directory)
  
-'sbt "run /sample2.txt /sample1.txt"'
+`sbt "run /sample2.txt /sample1.txt"`
 
 ## Dependency Credits
 None
